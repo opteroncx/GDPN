@@ -1,7 +1,7 @@
 import argparse
 import sys
 from unittest.mock import patch
-sys.path.append('ilvr_adm')
+sys.path.append('diffusion')
 import torch
 import torch.distributed as dist
 from guided_diffusion import dist_util, logger
